@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz@9..144&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3{
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    -webkit-text-stroke: 1px;
+}
+h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+p{
+    color: hsl(232, 10%, 55%);
+    font-weight: 700
+}
+img{
+    width: 100%;
+}
+.navbar{
+    background-color: hsl(193, 98%, 50%);
+}
+.hero-container{
+    height: 25rem;
+}
+.hero{
+    background-color: hsl(193, 98%, 50%);
+    background-image:  url('../images/mobile/image-header.jpg');
+    background-position: bottom center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.hero > h1{
+    letter-spacing: 0.5rem;
+    color: hsl(0, 100%, 100%);
+}
+.hero > img{
+    width: 1.8rem;
+    top: 52%;
+    right: 46%;
+}
+
+
